@@ -1,0 +1,25 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "A chat api to communicate between a recipient and a sender.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdursema/chat-api.git"
+  },
+  "author": "jmdursema@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdursema/chat-api/issues"
+  },
+  "homepage": "https://github.com/jdursema/chat-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.8.0"
+  }
+}
