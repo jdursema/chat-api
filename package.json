@@ -4,6 +4,7 @@
   "description": "A chat api to communicate between a recipient and a sender.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
