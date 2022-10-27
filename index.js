@@ -22,3 +22,5 @@ app.post('/messages', db.sendMessage);
 server.listen(port, () => {
   console.log('listening on *:'+ port);
 })
+
+module.exports = server;
